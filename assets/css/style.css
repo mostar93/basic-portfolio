@@ -1,42 +1,35 @@
-
 body {
     background-image: url("../palmleaf.png");
     margin: 0;
     padding: 0;
 }
-
 header {
     
-    box-sizing: border-box;
     background: white;
     position: relative;
     height: 15%;
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     border: 1px solid #4aaaa5; 
 }
 .bodytext {
-    width: 960px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-
 #title {
     position: relative;
-    width: 960px;
+    width: 70%;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;   
 }
-
 #links  {
     position: absolute;
     right: 0;
     top: 40%;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
 span {
     color: lightgray;
 }
@@ -44,15 +37,11 @@ span {
     text-decoration: none;
     word-spacing: 15px;
     color: grey;
-
 }
-
 #blink {
     text-decoration: none;
-    color: grey;
-    
+    color: grey;  
 }
-
 h1 {
     box-sizing: border-box;
     background: #4aaaa5;
@@ -71,7 +60,7 @@ h2 {
 
 #box {
     box-sizing: border-box;
-    width: 960px;
+    width: 70%;
     height: 67%;
     background: #ffffff;
     padding: 20px;
@@ -81,26 +70,27 @@ h2 {
     margin-bottom: 20px;
     border: 1px solid #4aaaa5; 
 }
-
-img {
+#aboutme {
     float: left;
     width: 300px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(155, 152, 152);
     line-height: 2;
+    padding: 0;
 }
 
+p::first-letter {
+    font-size: 30px;
+}
 hr {
     line-height: 5px;
     color: aliceblue;
 }
-
 footer {
     color: #ffffff;
     background-color: grey;
@@ -115,6 +105,4 @@ footer {
     width: 100%;
     padding-top: 5%;
     border-top: #4aaaa5 6px solid;
-    
-
 }
